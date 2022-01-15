@@ -1,7 +1,7 @@
-import { express } from 'express';
-import { cors } from 'cors';
-import { pool } from './db';
-
+const express = require('express');
+const app = express();
+const cors = require('cors');
+const pool = require('./db');
 const port = 5003;
 
 // Middleware
